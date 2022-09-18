@@ -1,0 +1,94 @@
+/* css reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+    background-color: #F1F1F1;
+    position: relative;  
+}
+
+/* buttons */
+button{
+    font-family: inherit;
+}
+.btn{
+    display: inline-block;
+    border: none;
+    border: 3px solid #333333;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 17px;
+    color: #333333;
+  
+}
+.btn-main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    z-index: -1;
+}
+.btn-primary:hover{
+    transform: translateY(-10px);
+    box-shadow:  -8px 2px 78px -21px rgba(0,0,0,0.75);
+
+}
+
+.btn-secondary{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+.btn-secondary:hover{
+    gap: 18px;
+}
+
+ .hidden{
+    display: none;
+}   
+.wrapper{
+    border: 3px solid #333333;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    max-width: 700px;
+    padding: 3rem 4rem;
+    z-index: 111;
+    box-shadow:  -8px 2px 78px -21px rgba(0,0,0,0.75);
+    
+}
+
+.close-modal{
+position: absolute;
+right: 2rem;
+top: 2rem;
+border: none;
+font-size: 4rem;
+background-color:none;
+cursor: pointer;
+}
+.close-modal:hover{
+    color: #ccc5b9;
+    transition: all 0.4s ease-in;
+   
+}
+.title-lead{
+    
+    font-size: 3rem;
+}
+.text-description{
+ font-size: 2rem;
+ margin: 20px 0;
+ border-top: 3px solid #333333;
+ padding-top: 20px;
+ line-height:1.5;
+}
+
